@@ -1,0 +1,105 @@
+
+.Login {
+  background-color: #0A0F1E;
+  color: #e6e6e6;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+
+.Login__titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.Login__texto {
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+
+
+.Login__form {
+  background-color: #0d142b;  
+  border: 1px solid #2d2d2d;
+  border-radius: 8px;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.Login__campo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Login__campo label {
+  font-size: 0.9rem;
+  color: #d1d5db;
+  margin-bottom: 6px;
+}
+
+.Login__campo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Login__olvido {
+  font-size: 0.85rem;
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+
+.Login__campo input {
+    background-color: #0d142b;
+  border: 1px solid #2d2d2d;
+  color: #e6e6e6;
+  padding: 10px 12px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+
+.Login__boton {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Login__boton:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.02);
+}
+
+
+.Login__registro {
+  color: #a3a3a3;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.Login__registro a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
