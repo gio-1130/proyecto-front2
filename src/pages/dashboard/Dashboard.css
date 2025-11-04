@@ -5,46 +5,213 @@
     margin: 0;
 }
 
+div {
+    background-color: rgb(25, 29, 36);
+}
+
 .Barra_lateral {
     background-color: rgb(44, 52, 64);
     width: 20%;
     height: 100vh;
     border-right: 1px solid rgb(0, 0, 0);
+
+
+    .Imagen_barra_lateral {
+        width: 15%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .Nombre_app {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        position: relative;
+        left: 60px;
+        bottom: 35px;
+        color: white;
+    }
+
+    a {
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: gray;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 8px;
+    }
+
+
+    a:hover {
+        background-color: rgba(180, 79, 247, 0.1);
+        color: #ab4ff7;
+        width: 80%;
+    }
+
+    .Cerrar_sesion {
+        position: relative;
+        top: 60vh;
+    }
 }
 
-.Imagen_barra_lateral {
-    width: 15%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.Nombre_app {
-    font-family: "Open Sans", sans-serif;
+.Titulo {
     font-size: 15px;
+    font-family: "Open Sans", sans-serif;
     position: relative;
-    left: 60px;
-    bottom: 35px;
+    bottom: 98vh;
+    margin-left: 23%;
     color: white;
 }
 
-a {
-    margin-left: 15px;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    color: gray;
-    font-family: "Open Sans", sans-serif;
-    border-radius: 8px;
-}
-
-
-a:hover {
-    background-color: rgba(180, 79, 247, 0.1);
-    color: #ab4ff7;
-    width: 80%;
-}
-
-.Cerrar_sesion {
+.Foto_perfil {
+    width: 40px;
     position: relative;
-    top: 60vh;
+    bottom: 103vh;
+    left: 95%;
+}
+
+.TItulo_tarjetas {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 95vh;
+    margin-left: 23%;
+}
+
+.Texto_tarejetas {
+    font-family: "Open Sans", sans-serif;
+
+    color: white;
+    position: relative;
+    bottom: 95vh;
+    margin-left: 23%;
+}
+
+.Tarjetas_contenedor {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 90vh;
+    margin-left: 22%;
+
+
+    .Tarjeta {
+        font-family: "Open Sans", sans-serif;
+        background-color: rgb(44, 52, 64);
+        border-radius: 10px;
+        padding: 15px;
+        width: 200px;
+        height: 15vh;
+        margin-left: 20px;
+
+        h3 {
+            font-size: 14px;
+            color: rgb(170, 170, 170);
+        }
+
+        p {
+            font-size: 24px;
+            font-family: "Open Sans", sans-serif;
+            margin-top: 8px;
+            color: white;
+        }
+    }
+}
+
+.Seccion_inferior {
+    width: 50%;
+    border: 1px solid rgb(44, 52, 64);
+    border-radius: 20px;
+    background-color: rgb(44, 52, 64);
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+    margin-left: 23%;
+    position: relative;
+    bottom: 90vh;
+
+    .Notificaciones {
+        background-color: rgb(44, 52, 64);
+        border-radius: 20px;
+    }
+
+
+    h3 {
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .Notificacion {
+        background-color: rgb(44, 52, 64);
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+
+    h4 {
+        margin-left: 10px;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+
+    p {
+        margin-left: 10px;
+        color: rgb(170, 170, 170);
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 5px;
+    }
+
+    .Ver_todo {
+        font-family: "Open Sans", sans-serif;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: rgb(99, 102, 241);
+    }
+}
+
+.Accesos_Directos {
+    width: 20%;
+    background-color: rgb(44, 52, 64);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    bottom: 130vh;
+    margin-left: 75%;
+
+    h3 {
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .Boton {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(63, 70, 82);
+        color: white;
+    }
+
+    .Boton:hover {
+        background-color: rgb(75, 80, 92);
+    }
+
+
+    .Boton_primario {
+        background-color: rgb(99, 102, 241);
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+    }
 }
